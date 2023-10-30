@@ -25,4 +25,4 @@ Este proyecto se enfoca en crear una página web simple que permite cambiar una 
 
 ## Autor
 
-[Creado por tu nombre] - [Enlace al perfil o contacto si es aplicable]
+[Valeria Sánchez] 
