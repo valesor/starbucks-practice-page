@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <script src="https://kit.fontawesome.com/8d9bc456af.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section>
+    <div class="circle"></div>
+
+
+    <header>
+      <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a> </li>
+        <li><a href="#">Whats New</a> </li>
+        <li><a href="#">Contact</a> </li>
+      </ul>
+
+      <div class="nav__responsive-button-container">
+        <div> <img class="nav__responsive-button" id="responsive-button" src="images/menu.png" alt="">
+        </div>
+      </div>
+      <ul class="nav__responsive-ul ">
+        <div class="nav__li-container">
+          <li class="nav__responsive-li"><a href="#"> Home</a></li>
+          <li class="nav__responsive-li"><a href="#"> Menu</a></li>
+          <li class="nav__responsive-li"><a href="#">Whats New</a></li>
+          <li class="nav__responsive-li"><a href="#">Contact</a></li>
+        </div>
+      </ul>
+
+
+    </header>
+
+    <div class="content">
+      <div class="textBox">
+        <h2>It's not just Coffee <br> It's <span>Starbucks</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsum asperiores laboriosam, ad illo
+          totam aperiam quas culpa ea explicabo, ullam deleniti eaque corporis dolore repellat eos adipisci distinctio
+          aspernatur!s</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="imgBox">
+        <img src="images/img1.png" class="starbucks" alt="">
+      </div>
+    </div>
+
+    <ul class="thumb">
+      <li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png'); changeCircleColor('#017143')"></li>
+      <li><img src="images/thumb2.png" onclick="imgSlider('images/img2.png'); changeCircleColor('#eb7495')"></li>
+      <li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png'); changeCircleColor('#d752b1')"></li>
+    </ul>
+
+    <ul class="sci">
+      <li> <a href="#"> <img src="images/facebook.png" alt=""></a></li>
+      <li> <a href="#"> <img src="images/twitter.png" alt=""></a></li>
+      <li> <a href="#"> <img src="images/instagram.png" alt=""></a></li>
+    </ul>
+  </section>
+  <script src="js/script.js">
+
+
+  </script>
+</body>
+
+</html>
